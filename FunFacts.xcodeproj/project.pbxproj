@@ -13,6 +13,8 @@
 		C59A36881A9FDA9900D4467E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59A36871A9FDA9900D4467E /* Images.xcassets */; };
 		C59A368B1A9FDA9900D4467E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C59A36891A9FDA9900D4467E /* LaunchScreen.xib */; };
 		C59A36971A9FDA9900D4467E /* FunFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59A36961A9FDA9900D4467E /* FunFactsTests.swift */; };
+		C59A36A11A9FE35D00D4467E /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59A36A01A9FE35D00D4467E /* FactBook.swift */; };
+		C59A36A31A9FEFF600D4467E /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59A36A21A9FEFF600D4467E /* ColorWheel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		C59A36901A9FDA9900D4467E /* FunFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59A36951A9FDA9900D4467E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C59A36961A9FDA9900D4467E /* FunFactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsTests.swift; sourceTree = "<group>"; };
+		C59A36A01A9FE35D00D4467E /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
+		C59A36A21A9FEFF600D4467E /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +82,13 @@
 			isa = PBXGroup;
 			children = (
 				C59A36801A9FDA9900D4467E /* AppDelegate.swift */,
+				C59A36A01A9FE35D00D4467E /* FactBook.swift */,
 				C59A36821A9FDA9900D4467E /* ViewController.swift */,
 				C59A36841A9FDA9900D4467E /* Main.storyboard */,
 				C59A36871A9FDA9900D4467E /* Images.xcassets */,
 				C59A36891A9FDA9900D4467E /* LaunchScreen.xib */,
 				C59A367E1A9FDA9900D4467E /* Supporting Files */,
+				C59A36A21A9FEFF600D4467E /* ColorWheel.swift */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C59A36A11A9FE35D00D4467E /* FactBook.swift in Sources */,
 				C59A36831A9FDA9900D4467E /* ViewController.swift in Sources */,
 				C59A36811A9FDA9900D4467E /* AppDelegate.swift in Sources */,
+				C59A36A31A9FEFF600D4467E /* ColorWheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
